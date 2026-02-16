@@ -7,7 +7,7 @@ This project replicates and extends the 2015 inflation model associated with Jan
 
 The primary objective is to test whether measures of import pressure and supply chain congestion significantly contributed to U.S. inflation during the pandemic period.
 
-In addition to replicating the original specification, I compare alternative supply chain indices and introduce direct port congestion data from the U.S. Department of Transportation.
+In addition to replicating the original specification, I compare alternative supply chain indices and introduce direct port congestion data I obtained via request from the U.S. Department of Transportation.
 
 ---
 
@@ -24,7 +24,7 @@ Specifically:
 
 ## Data
 
-All data are converted to quarterly percent changes unless otherwise noted.
+All data are converted to quarterly percent changes.
 
 **Dependent Variable**
 - Consumer Price Index (CPI), U.S. Bureau of Labor Statistics
@@ -100,8 +100,4 @@ Estimation Method:
 - lm()
 - tidyverse
 - stargazer (for regression tables)
-
----
-
-## Repository Structure
 
